@@ -76,17 +76,17 @@ If you are using Pipenv, then you can run:
 
 ## Functions by Script
 ### api.py
-    ├──  call_api   <-  Function that will check if there are enough input arguments provided.  If so it will return the formatted result from the Frankfurter app. If not it will return an error message
-    ├── format_currencies_url
-    ├──  get_currencies
-    ├── format_latest_url
+    ├── call_api   <-  Function that will call the specified API endpoint and return the response.
+    ├── format_currencies_url <- Function that will format the URL to the currency endpoint.
+    ├── get_currencies <- Function that will extract the currency codes available from the Frankfurter app as a list.
+    ├── format_latest_url <- Function that will format the URL to the latest endpoint.
 ## currency.py
-    ├── check_valid_currency
-    ├── Class Currency
-    	├── reverse_rate
-    	├── format_result
-    ├──  extract_api_result
+    ├── check_valid_currency <- Function that will check currency code is amongst the list of available currencies
+    ├── Class Currency <- Class that represents a Currency conversion object. 
+    	├── reverse_rate <- Method that will calculate the inverse rate, round it to 5 decimal places and save it in the attribute inverse_rate.
+    	├── format_result <- Methods returning the formatted successful message.
+    ├── extract_api_result <- Function that will extract the relevant fields from API result, instantiate a Currency class accordingly and calculate the inverse rate.
 ## main.py
-    ├── def_main
-    ├── def_get_rate
+    ├── def_main <- Function that will check if there are enough input arguments provided. If so it will return the formatted result from the Frankfurter app. If not it will return an error message.
+    ├── def_get_rate <- Function that will check if provided currency codes are valid otherwise it will return error message. If both are valid, it will format the API url, make a request to it and format the result.
 
