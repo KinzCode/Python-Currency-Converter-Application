@@ -76,7 +76,7 @@ If you are using Pipenv, then you can run:
 
 ## Functions by Script
 ### api.py
-* call_api :  Function that will check if there are enough input arguments provided.  If so it will return the formatted result from the Frankfurter app. If not it will return an error message
+* call_api  	<- Function that will check if there are enough input arguments provided.  If so it will return the formatted result from the Frankfurter app. If not it will return an error message
 * format_currencies_url
 * get_currencies
 * format_latest_url
