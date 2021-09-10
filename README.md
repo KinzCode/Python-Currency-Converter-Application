@@ -73,3 +73,20 @@ If you are using Pipenv, then you can run:
     ├── README.md          <- A markdown file outlining the contents and purpose of the repository along with instructions of how to operate.
     ├── test_api.py        <- The script containing unit tests for the methods that format the API URL, and the method that gets the list of valid currencies.
     └── test_currency.py   <-The script containing unit tests for the method that checks if the user inputted currency is valid, and the methods that extract the API content.
+
+## Functions by Script
+### api.py
+* call_api :  Function that will check if there are enough input arguments provided.  If so it will return the formatted result from the Frankfurter app. If not it will return an error message
+* format_currencies_url
+* get_currencies
+* format_latest_url
+## currency.py
+* check_valid_currency
+* Class Currency
+* * reverse_rate
+** format_result
+* extract_api_result
+## main.py
+* def_main
+* def_get_rate
+
