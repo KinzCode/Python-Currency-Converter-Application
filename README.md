@@ -11,11 +11,9 @@
 A command line application that can calculate the current and reverse rates of two user specified  currencies.
 
 ### Available Currencies & Codes
-Australian Dollar = AUD
-
-Bulgarian Lev = BGN
-
-Brazilian Real = BRL
+*Australian Dollar = AUD
+*Bulgarian Lev = BGN
+*Brazilian Real = BRL
 
 Canadian Dollar = CAD
 Swiss Franc = CHF
