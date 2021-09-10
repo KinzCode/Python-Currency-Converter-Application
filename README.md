@@ -64,7 +64,6 @@ If you are using Pipenv, then you can run:
 - requests
 
 ## Structure
-
     ├── api.py             <- The script containing the methods that format the API url's and call the API.
     ├── currency.py        <- The script containing the method that validates inputted currencies along with the method that extracts the api result using the currency class.
     ├── main.py            <- The script containing the methods that execute the codebase.
@@ -74,7 +73,7 @@ If you are using Pipenv, then you can run:
     ├── test_api.py        <- The script containing unit tests for the methods that format the API URL, and the method that gets the list of valid currencies.
     └── test_currency.py   <-The script containing unit tests for the method that checks if the user inputted currency is valid, and the methods that extract the API content.
 
-## Functions by Script
+## Functions By Script
 ### api.py
     ├── call_api   <-  Function that will call the specified API endpoint and return the response.
     ├── format_currencies_url <- Function that will format the URL to the currency endpoint.
@@ -89,4 +88,15 @@ If you are using Pipenv, then you can run:
 ## main.py
     ├── def_main <- Function that will check if there are enough input arguments provided. If so it will return the formatted result from the Frankfurter app. If not it will return an error message.
     ├── def_get_rate <- Function that will check if provided currency codes are valid otherwise it will return error message. If both are valid, it will format the API url, make a request to it and format the result.
-
+## test_api.py
+    ├── Class TestFormatUrl <- Class that represnets unit tests for URL formatting
+	├── test_function_currencies <- Function that tests format_currencies_url returns a str and correct url format.
+ 	├── test_function_url <- Function that tests format_latest_url retrusn a str and correct url format.
+    ├── Class TestAPI <- Class that represents unit tests for call_api function.
+	├── test_function <- Function that tests get_currencies returns a list.
+## test_currency.py
+    ├── Class TestValidCurrency <- Class that represents unit tests for check_valid_currency funciton.
+	    ├── test_function <- Function that tests check_valid_currency with 'AUD' parsed returns True.
+	    ├── test_false_currency <- Function that tests check_valid_currency with 'Foo' parsed returns False.
+    ├── TestExtractApi <- Class that represents unit tests for ExtractApi function
+	    ├── test_function <- Function that tests that extract_api function returns the same output as keyword arguements parsed directly into Currency Class.
