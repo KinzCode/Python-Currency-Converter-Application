@@ -1,4 +1,4 @@
-<h1 align="center">Project Name></h1>
+<h1 align="center">Currency Converter ></h1>
 
 ## Author
 
@@ -14,37 +14,36 @@ A command line application that can calculate the current and reverse rates of t
 * Australian Dollar = AUD
 * Bulgarian Lev = BGN
 * Brazilian Real = BRL
-
-Canadian Dollar = CAD
-Swiss Franc = CHF
-Chinese Yuan = CNY
-Czech Koruna = CZK
-Danish Krone = DKK
-Euro = EUR
-British Pound = GBP
-Hong Kong Dollar = HKD
-Croatian Kuna = HRK
-Hungarian Forint = HUF
-Indonesian Rupiah = IDR
-Israeli New Shekel  = ILS
-Indian Rupee = INR
-Icelandic Króna = ISK
-Japanese Yen= JPY
-South Korean = KRW
-Mexican Peso = MXN
-Malaysian Ringgit = MYR
-Norwegian Krone = NOK
-New Zealand Dollar = NZD
-Philippine peso = PHP
-Poland złoty = PLN
-Romanian Leu = RON
-Russian Ruble = RUB
-Swedish Krona = SEK
-Singapore Dollar = SGD
-Thai Baht = THB
-Turkish lira = TRY
-United States Dollar = USD
-South African Rand  = ZAR
+* Canadian Dollar = CAD
+* Swiss Franc = CHF
+* Chinese Yuan = CNY
+* Czech Koruna = CZK
+* Danish Krone = DKK
+* Euro = EUR
+* British Pound = GBP
+* Hong Kong Dollar = HKD
+* Croatian Kuna = HRK
+* Hungarian Forint = HUF
+* Indonesian Rupiah = IDR
+* Israeli New Shekel  = ILS
+* Indian Rupee = INR
+* Icelandic Króna = ISK
+* Japanese Yen= JPY
+* South Korean = KRW
+* Mexican Peso = MXN
+* Malaysian Ringgit = MYR
+* Norwegian Krone = NOK
+* New Zealand Dollar = NZD
+* Philippine peso = PHP
+* Poland złoty = PLN
+* Romanian Leu = RON
+* Russian Ruble = RUB
+* Swedish Krona = SEK
+* Singapore Dollar = SGD
+* Thai Baht = THB
+* Turkish lira = TRY
+* United States Dollar = USD
+* South African Rand  = ZAR
 
 ## Available Commands
 
