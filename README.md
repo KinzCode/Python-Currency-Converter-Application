@@ -12,8 +12,11 @@ A command line application that can calculate the current and reverse rates of t
 
 ### Available Currencies & Codes
 Australian Dollar = AUD
+
 Bulgarian Lev = BGN
+
 Brazilian Real = BRL
+
 Canadian Dollar = CAD
 Swiss Franc = CHF
 Chinese Yuan = CNY
