@@ -90,13 +90,13 @@ If you are using Pipenv, then you can run:
     ├── def_get_rate <- Function that will check if provided currency codes are valid otherwise it will return error message. If both are valid, it will format the API url, make a request to it and format the result.
 ## test_api.py
     ├── Class TestFormatUrl <- Class that represnets unit tests for URL formatting
-	├── test_function_currencies <- Function that tests format_currencies_url returns a str and correct url format.
- 	├── test_function_url <- Function that tests format_latest_url retrusn a str and correct url format.
+    	├── test_function_currencies <- Function that tests format_currencies_url returns a str and correct url format.
+    	├── test_function_url <- Function that tests format_latest_url retrusn a str and correct url format.
     ├── Class TestAPI <- Class that represents unit tests for call_api function.
-	├── test_function <- Function that tests get_currencies returns a list.
+    	├── test_function <- Function that tests get_currencies returns a list.
 ## test_currency.py
     ├── Class TestValidCurrency <- Class that represents unit tests for check_valid_currency funciton.
-	    ├── test_function <- Function that tests check_valid_currency with 'AUD' parsed returns True.
-	    ├── test_false_currency <- Function that tests check_valid_currency with 'Foo' parsed returns False.
+    	├── test_function <- Function that tests check_valid_currency with 'AUD' parsed returns True.
+    	├── test_false_currency <- Function that tests check_valid_currency with 'Foo' parsed returns False.
     ├── TestExtractApi <- Class that represents unit tests for ExtractApi function
-	    ├── test_function <- Function that tests that extract_api function returns the same output as keyword arguements parsed directly into Currency Class.
+    	├── test_function <- Function that tests that extract_api function returns the same output as keyword arguements parsed directly into Currency Class.
